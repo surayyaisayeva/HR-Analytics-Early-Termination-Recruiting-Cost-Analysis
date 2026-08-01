@@ -11,11 +11,13 @@ Which departments and recruiting sources have the highest early-termination risk
 Cleaning and joining three separate tables, tenure/attrition calculations, a reusable function applied across grouping variables with purrr::map, four statistical tests (t-test, chi-square, Spearman correlation, ANOVA), and three ggplot2 charts.
 
 ## Findings
+## Findings
 
-- Early termination rate (first 90 days): ...
-- Highest-risk department: ...
-- Highest-risk recruiting source: ...
-- Cost per hire vs. early termination rate: ...
+- Early termination rate (first 90 days): **13.7%** of employees who left the company did so within their first 90 days.
+- Highest-risk department: **Production**, at **5.8%** (12 of 208 employees), followed by **IT/IS** at **4.9%** (2 of 41). The other four departments (Admin Offices, Executive Office, Sales, Software Engineering) had no early terminations in this dataset.
+- Highest-risk recruiting sources: **Internet Search** (16.7%) and **Word of Mouth** (15.4%) had the highest early-departure rates among sources with 5+ hires — though Internet Search is based on just 6 hires, so treat that number cautiously.
+- Cost per hire vs. early termination rate: Spearman's rho = 0.09 (p = 0.69) — no statistically significant relationship. Expensive recruiting channels weren't associated with higher or lower early-termination risk in this dataset.
+
 
 ## Running it
 
