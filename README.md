@@ -11,7 +11,6 @@ Which departments and recruiting sources have the highest early-termination risk
 Cleaning and joining three separate tables, tenure/attrition calculations, a reusable function applied across grouping variables with purrr::map, four statistical tests (t-test, chi-square, Spearman correlation, ANOVA), and three ggplot2 charts.
 
 ## Findings
-## Findings
 
 - Early termination rate (first 90 days): **13.7%** of employees who left the company did so within their first 90 days.
 - Highest-risk department: **Production**, at **5.8%** (12 of 208 employees), followed by **IT/IS** at **4.9%** (2 of 41). The other four departments (Admin Offices, Executive Office, Sales, Software Engineering) had no early terminations in this dataset.
